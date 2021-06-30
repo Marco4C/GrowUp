@@ -1,0 +1,97 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+ul {
+  margin: 0;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.button {
+  border: 2px #4dc6f1 solid;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.oqueganha, .conceito, .avaliacao {
+  background-color: #224f78;
+}
+
+.quembuscamos, .gruposavaliacao {
+  background-color: #4dc6f1;
+}
+
+nav {
+  background-color: #224f78;
+  text-align: center;
+  padding: 64px 0;
+}
+nav .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  color: #FFFFFF;
+  font-family: Sans-serif;
+  font-size: 16px;
+}
+nav :nth-child(3) {
+  color: #4dc6f1;
+}
+
+header {
+  position: relative;
+  background-image: url("./images/bg-header_06.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+header div:first-child {
+  position: absolute;
+  top: 177px;
+  left: 40px;
+}
+header div:last-child {
+  margin-right: 100px;
+}
+
+.gruposavaliacao .grupo-lista {
+  border: 2px #FFF solid;
+  border-radius: 15px;
+}
+
+.noticias .wrapper {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+.noticias .carousel {
+  width: 90%;
+  margin: 0px auto;
+}
+.noticias .slick-slide {
+  margin: 10px;
+}
+.noticias .slick-slide img {
+  width: 100%;
+  border: 2px solid #000;
+}
+.noticias .wrapper .slick-dots li button:before {
+  font-size: 20px;
+  color: #000;
+}
+.noticias .wrapper .slick-arrow:before {
+  color: #000;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
